@@ -12,12 +12,13 @@ class WhietNode:
         return {
             "required": {
                 "x": ("INT", {"default": 1}),
+                "y": ("INT", {"default": 2}),
             }
         }
 
     RETURN_TYPES = ("INT",)
     FUNCTION = "double"
-    CATEGORY = "drWhiet"  # Creator name shown as subcategory
+    CATEGORY = "_drWhiet"  # Creator name shown as subcategory
 
     def double(self, x):
         # Simple test function
