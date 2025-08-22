@@ -13,6 +13,7 @@ class WhietNode:
             "required": {
                 "x": ("INT", {"default": 1}),
                 "y": ("INT", {"default": 2}),
+                "z": ("INT", {"default": 3}),                
             }
         }
 
